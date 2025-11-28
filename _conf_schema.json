@@ -1,0 +1,22 @@
+{
+  "max_video_size_mb": {
+    "type": "float",
+    "description": "允许处理的视频最大体积(MB)，超过不处理",
+    "default": 50.0
+  },
+  "max_gif_duration": {
+    "type": "float",
+    "description": "生成的GIF最大允许时长(秒)，超过会自动截断，防止内存溢出",
+    "default": 240.0
+  },
+  "default_scale": {
+    "type": "float",
+    "description": "默认缩放比例(0.1-1.0)，不指定参数时使用",
+    "default": 0.3
+  },
+  "default_fps": {
+    "type": "int",
+    "description": "默认帧率，不指定参数时使用",
+    "default": 10
+  }
+}
