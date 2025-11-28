@@ -17,6 +17,7 @@
   "default_fps": {
     "type": "int",
     "description": "默认帧率，不指定参数时使用",
-    "default": 10
+    "default": 8
   }
+
 }
